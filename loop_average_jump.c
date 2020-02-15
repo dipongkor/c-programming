@@ -12,8 +12,9 @@ int main(){
         }
         sum += marks;
     }
-    jump:
+    
     average = sum/(i - 1);
+    jump:
     printf("Average marks is: %f", average);
     return 0;
 }

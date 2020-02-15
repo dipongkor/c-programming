@@ -2,8 +2,10 @@
 #include <math.h>
 int main()
 {
-    int i, j, is_prime;
-    for (j = 1; j <= 10; j++)
+    int i, j, is_prime, max_number;
+    scanf("%d", &max_number);
+
+    for (j = 2; j <= max_number; j++)
     {
         is_prime = 1;
         for (i = 2; i <= sqrt(j); i++)
@@ -16,8 +18,13 @@ int main()
         }
         if (is_prime == 1)
         {
-            printf("%d\n", j);
+            printf("%d is prime\n", j);
         }
+        else
+        {
+            printf("%d is not prime\n", j);
+        }
+        
     }
     return 0;
 }

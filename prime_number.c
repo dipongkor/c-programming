@@ -2,7 +2,7 @@
 #include<math.h>
 int main(){
     int i, is_prime, number;
-    number = 5;
+    number = 9;
     is_prime = 1;
     for(i=2; i <= sqrt(number); i++){
         if(number%i == 0){
@@ -10,7 +10,7 @@ int main(){
             break;
         }
     }
-    if(is_prime){
+    if(is_prime == 1){
         printf("%d is a prime number", number);
     }
     else{
