@@ -3,6 +3,7 @@
 int main()
 {
     int marks[5];
+    
     marks[0] = 20;
     marks[1] = 18;
     marks[2] = 19;
