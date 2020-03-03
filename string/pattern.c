@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    char pattern[5] = "*****";
-    int i, w = 5, p = 5;
-    for (i = 0; i < 5; i++)
+    char pattern[] = "*********";
+    int i, w = 6, p = 6;
+    for (i = 0; i < 6; i++)
     {
-        printf("%*.*s\n", w, p, pattern);
+        printf("%-*.*s\n", w, p, pattern);
         --p;
     }
     return 0;
