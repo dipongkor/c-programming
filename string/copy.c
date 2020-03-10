@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    char str1[31] = "Today is the historic 7th march";
-    char str2[31];
+    char str1[100] = "Today";
+    char str2[100];
     int i = 0;
     while (str1[i] != '\0')
     {
