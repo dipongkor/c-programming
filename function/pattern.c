@@ -4,9 +4,10 @@ int main(){
     print_pyramid(5);
     printf("\n");
     print_pyramid(6);
+    printf("\n");
+    print_pyramid(8);
     return 0;
 }
-
 void print_pyramid(int n){
     int i, j, k;
     for (i = 1; i <= n; i++)

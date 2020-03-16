@@ -2,8 +2,11 @@
 int find_max(int a, int b);
 int find_min(int a, int b);
 int main(){
-    int max = find_max(5,6);
-    int min = find_min(5,6);
+    int x, y;
+    scanf("%d%d", &x, &y);
+
+    int max = find_max(x,y);
+    int min = find_min(x,y);
     printf("Max = %d, Min = %d", max, min);
     return 0;
 }

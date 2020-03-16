@@ -2,7 +2,8 @@
 int find_factorial(int n);
 int get_factorial(int n);
 int main(){
-    printf("%d\n", find_factorial(5));
+    int fact = find_factorial(5);
+    printf("%d\n", fact);
     printf("%d\n", get_factorial(5));
     return 0;
 }
